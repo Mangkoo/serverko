@@ -5,8 +5,9 @@ import CardItemStaff from './CardItemStaff';
 function CardsStaff() {
   return (
     <div className='cards'>
-        <h1>Founders</h1>
-        <div className='cards__container'>
+        
+          <div className='cards__container'>
+              <h1 className='cardH'>Founders</h1>
             <div className='cards__wrapper'>
                 <ul className='cards__items'>
                 <CardItemStaff

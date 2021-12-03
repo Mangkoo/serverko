@@ -13,34 +13,34 @@ function Cards() {
             <CardItem
               src='images/img-9.jpg'
               text='Placeholder'
-              label='Adventure'
-              path='/donate'
+              label='$35.00'
+              path='/merch'
             />
             <CardItem
               src='images/img-2.jpg'
               text='Placeholder'
-              label='Rare'
-              path='/donate'
+              label='$40.00'
+              path='/merch'
             />
           </ul>
           <ul className='cards__items'>
-            <CardItem
+            <CardItemRare
               src='images/img-3.jpg'
               text='Placeholder'
-              label='Mystery'
-              path='/donate'
+              label='$20.00'
+              path='/merch'
             />
-            <CardItem
+            <CardItemRare
               src='images/img-4.jpg'
               text='Placeholder'
               label='$25.00'
-              path='/staff'
+              path='/merch'
             />
             <CardItemRare
               src='images/img-8.jpg'
               text='Placeholder'
               label='$20.00'
-              path='/sign-up'
+              path='/merch'
             />
           </ul>
         </div>
