@@ -1,14 +1,14 @@
 import React from 'react';
 import '../../App.css';
-import Cards from '../Cards';
-import HeroSection from '../HeroSection';
-import Footer from '../Footer';
+import Footer from '../navigation/Footer';
+import Body from '../Body';
+
 
 function Home() {
   return (
-    <>
-      <HeroSection />
-      <Cards />
+      <>
+        <Body/>
+          
       <Footer />
     </>
   );

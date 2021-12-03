@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\components"
+    "\\src\\components",
+    "\\src\\components\\pages"
   ],
-  "SelectedNode": "\\src\\components\\NavBar.css",
   "PreviewInSolutionExplorer": false
 }

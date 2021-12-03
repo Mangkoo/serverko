@@ -2,13 +2,15 @@ import React from 'react';
 import '../../App.css';
 import Footer from '../navigation/Footer';
 import Cards from '../shop/Cards';
-import Body from '../Body';
+import CardsStaff from '../CardsStaff';
 
-export default function SignUp() {
+export default function Staff() {
     return (
         <>
-            <Body />
+          
+            <CardsStaff />
             <Footer />
+
         </>
     );
 }

@@ -1,0 +1,27 @@
+.body {
+    background: rgb(41,46,57);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding:30px;
+}
+
+.bodyCard {
+    background: rgb(57,63,77);
+    padding: 30px 100px 400px 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.bodyHeader {
+    color: white;
+}
+
+.bodyText {
+    color: rgb(195,195,195);
+}
+
+.bodyListItem{
+    list-style: none;
+}
