@@ -5,36 +5,41 @@ import CardItemStaff from './CardItemStaff';
 function CardsStaff() {
   return (
     <div className='cards'>
-        
-          <div className='cards__container'>
-              <h1 className='cardH'>Founders</h1>
+        <div className='cards__container'>
+
+          <h1 className='section_header'>Founders</h1>
+
             <div className='cards__wrapper'>
                 <ul className='cards__items'>
                 <CardItemStaff
               src='images/flooblegoo.jpg'
-              text='Placeholder'
               label='Flooblegoo'
               path='/donate'
             />
+
             <CardItemStaff
               src='images/skeg.jpg'
-              text='Placeholder'
               label='Skeg'
               path='/donate'
             />
+
             <CardItemStaff
               src='images/mangko.jpg'
-              text='Placeholder'
               label='Mangko'
               path='/donate'
             />
-          </ul>
-        </div>
-          </div>
 
-          <h1>Admins</h1>
-        <div className='cards__container'>
-              <div className='cards__wrapper'>
+          </ul>
+
+        </div>
+    </div>
+
+
+
+    <div className='cards__container'>
+
+      <h1 className='section_header'>Admins</h1>
+      <div className='cards__wrapper'>
                  
           <ul className='cards__items'>
             <CardItemStaff
@@ -64,8 +69,10 @@ function CardsStaff() {
           </ul>
         </div>
       </div >          
-          <h1>Moderators</h1>
+
         <div className='cards__container'>
+        <h1 className='section_header'>Moderators</h1>
+
               <div className='cards__wrapper'>
                  
           <ul className='cards__items'>
