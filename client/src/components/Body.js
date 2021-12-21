@@ -6,21 +6,26 @@ function Body() {
   return (
     <div className='body'>
           
+      <div className='bodyCardContainer'>
+        <div className='bodyCardHeader'>Community Posts</div>    
           <div className='bodyCard'>
-              <ul>
+            
+            <ul>  
+              
+              <li className='bodyListItem'>        
+                <h1 class='bodyHeader'> <i class="fas fa-wrench"></i> This page is still under construction..</h1>
+              </li>            
+              
               <li className='bodyListItem'>
-                      
-              </li>              
-              <li className='bodyListItem'>
-                      <h1 class='bodyHeader'> <i class="fas fa-wrench"></i> This page is still under construction..</h1>
+                <body class='bodyText'>Check back here soon!</body>
               </li>
-                  <li className='bodyListItem'>
-                      <br/>
-                      <body class='bodyText'>Check back here soon!</body>
-              </li>
-              </ul>
+
+
+
+            </ul>
               
               
+          </div>
           </div>
      
     </div>
