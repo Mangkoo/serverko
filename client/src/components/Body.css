@@ -1,36 +1,12 @@
 .body {
     background: rgb(41,46,57);
-    align-items: center;
     display: flex;
     justify-content: center;
     padding:30px;
+
+    vertical-align:top;
 }
 
-.bodyCardContainer{
-    background: rgb(255,89,0);
-    background: linear-gradient(90deg, rgba(255,89,0,1) 7%, rgba(190,168,111,1) 83%);
-    border-radius: 10px;
-
-}
-
-.bodyCardHeader{
-    padding:.3em;
-    font-size: larger;
-}
-
-/*Need to change the way the width is set in the bodyCard - currently using a hardcoded 70em width.. */
-/*Padding-bottom is just a placeholder for now*/
-.bodyCard {
-    background: rgb(57,63,77);
-    display: flex;
-    width:70em;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.17);
-    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    filter: drop-shadow(0 6px 20px rgba(0, 0, 0, 0.017));
-    padding-bottom:400px;
-}
 
 .bodyHeader {
     color: white;
@@ -40,7 +16,85 @@
     color: rgb(195,195,195);
 }
 
+
+.bodyList{
+    width:100%;
+}
+
 .bodyListItem{
+    display: flex;
     list-style: none;
     padding: 1em;
 }
+
+/*Community Card*/
+
+
+.communityCardContainer{
+    margin: .25em;
+    width: 40%;
+}
+
+.communityCardHeader{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: rgb(133,143,88);
+    background: linear-gradient(90deg, rgba(133,143,88,1) 0%, rgba(85,163,115,1) 46%, rgba(136,123,109,1) 97%);
+    padding:.3em;
+    font-size: large;
+}
+
+.communityCard {
+    background: rgb(57,63,77);
+    display: flex;
+    width:100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(0, 0, 0, 0.017));
+    float:left;
+}
+
+/*(Demo) Feed*/
+
+.demoFeed{
+    height:300px;
+    background:rgb(177, 177, 177, 20%);
+    border-radius: 10px;
+    padding:1em;
+    width: 100%;
+
+}
+
+/*Recent Posts Card*/
+
+.recentCardContainer{
+    margin: .25em;
+    width: 15%;
+    
+}
+
+.recentCardHeader{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: rgb(255,89,0);
+    background: linear-gradient(90deg, rgba(255,89,0,1) 7%, rgba(190,168,111,1) 83%);
+    padding:.3em;
+    font-size: large;
+}
+
+/*Need to change the way the width is set in the card - currently using a hardcoded 70em width.. */
+/*Padding-bottom is just a placeholder for now*/
+.recentCard {
+    background: rgb(57,63,77);
+    display: flex;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(0, 0, 0, 0.017));
+
+}
+
