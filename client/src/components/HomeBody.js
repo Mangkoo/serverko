@@ -10,16 +10,16 @@ function HomeBody() {
 
         {/*Corousel buttons.*/}
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
-          <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="" ></button>
+          <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="" ></button>
         </div>
 
         {/*Corousel content.*/}
         <div class="carousel-inner h-100">
 
           {/*Item 1.*/}
-          <div class="carousel-item active carousel-item-start h-100">
+          <div class="carousel-item active carousel-item h-100">
             <svg class="bd-placeholder-img h-100 w-100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
             <div class="container">
 
@@ -32,7 +32,7 @@ function HomeBody() {
           </div>
 
           {/*Item 2.*/}
-          <div class="carousel-item carousel-item-next carousel-item-start h-100">
+          <div class="carousel-item carousel-item h-100">
             <svg class="bd-placeholder-img h-100 w-100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#ababab"></rect></svg>
             <div class="container">
 
@@ -45,7 +45,7 @@ function HomeBody() {
           </div>
 
             {/*Item 3.*/}
-            <div class="carousel-item carousel-item-next carousel-item-start h-100">
+            <div class="carousel-item carousel-item h-100">
             <svg class="bd-placeholder-img h-100 w-100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#4d4d4d"></rect></svg>
             <div class="container">
 
