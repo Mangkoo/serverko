@@ -11,7 +11,7 @@ function Navbar() {
 
                     {/*Mobile Toggler.*/}
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
+                      <Link to='/'><span class="navbar-toggler-icon"></span></Link>
                     </button>
 
                     {/*Nav Items.*/}
@@ -27,11 +27,16 @@ function Navbar() {
                                   About
                               </Link>
                           </li>
+                          <li class="nav-item">
+                              <Link to='/shop'class="nav-link">
+                                  Shop
+                              </Link>
+                          </li>
                       </ul>
 
-                      {/*Purchase.*/}
+                      {/*Register/Login.*/}
                       <div class="d-flex">
-                          <button class="btn btn-primary me-1" type="submit">Purchase</button>
+                          <button class="btn btn-primary me-1" type="submit">Sign in or Register</button>
                       </div>
                     </div>
                 </div>

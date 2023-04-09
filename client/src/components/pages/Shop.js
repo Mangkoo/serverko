@@ -1,15 +1,15 @@
 import React from 'react';
 import '../../App.css';
 import Footer from '../navigation/Footer';
-import Body from '../HomeBody';
+import ShopBody from '../ShopBody';
 
-function Purchase() {
+function Shop() {
     return (
         <>
-            <Body />
+            <ShopBody />
             <Footer />
         </>
     );
 }
 
-export default Purchase;
+export default Shop;

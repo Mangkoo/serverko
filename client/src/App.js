@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './components/pages/About';
 import Merch from './components/pages/Merch';
 import SignUp from './components/pages/SignUp';
-import Purchase from './components/pages/Purchase';
+import Shop from './components/pages/Shop';
 
 function App() {
   return (
@@ -15,8 +15,8 @@ function App() {
         <Navbar />
         <Routes>
             <Route path='/' exact element={<Home/>} />
-            {/*was donate, now purchase*/}
-            <Route path='/purc' element={<Purchase/>} /> 
+            {/*was donate, now shop*/}
+            <Route path='/shop' element={<Shop/>} /> 
             {/*was staff, now about*/}
             <Route path='/about' element={<About/>} />
             {/*keep page in case needed*/}
