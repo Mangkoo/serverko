@@ -7,7 +7,6 @@ function Shop() {
     return (
         <>
             <ShopBody />
-            <Footer />
         </>
     );
 }

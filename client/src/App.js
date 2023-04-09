@@ -7,6 +7,7 @@ import About from './components/pages/About';
 import Merch from './components/pages/Merch';
 import SignUp from './components/pages/SignUp';
 import Shop from './components/pages/Shop';
+import Footer from './components/navigation/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path='/sign-up' element={<SignUp/>} />
         </Routes>
       </Router>
+      <Footer />
     </>
   );
 }
