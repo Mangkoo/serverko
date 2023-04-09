@@ -1,63 +1,12 @@
 
 /* Global CSS */
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'PT Sans', sans-serif;
-  color: white;
-  text-decoration: none;
-}
 
 /* Generalized Page CSS */
 
 .home,
-.donate,
-.staff,
+.purchase,
+.about,
 .merch,
 .sign-up {
-  display: flex;
-  height: 30vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-}
-
-/* Specific Page CSS */
-
-.donate {
-    background: rgb(41,46,57);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-}
-
-.staff {
-    background: rgb(41,46,57);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-}
-
-.merch {
-    background: rgb(41,46,57);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-}
-
-.sign-up {
-  background-image: url('./images/img-8.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
 }

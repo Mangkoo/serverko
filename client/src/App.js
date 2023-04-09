@@ -1,26 +1,27 @@
 import React from 'react';
 import Navbar from './components/navigation/Navbar';
-import Banner from './components/navigation/Banner';
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Donate from './components/pages/Donate';
-import Staff from './components/pages/Staff';
+import About from './components/pages/About';
 import Merch from './components/pages/Merch';
 import SignUp from './components/pages/SignUp';
+import Purchase from './components/pages/Purchase';
 
 function App() {
   return (
     <>
       <Router>
         <Navbar />
-        <Banner/>
-
         <Routes>
             <Route path='/' exact element={<Home/>} />
-            <Route path='/donate' element={<Donate/>} />
-            <Route path='/staff' element={<Staff/>} />
+            {/*was donate, now purchase*/}
+            <Route path='/purc' element={<Purchase/>} /> 
+            {/*was staff, now about*/}
+            <Route path='/about' element={<About/>} />
+            {/*keep page in case needed*/}
             <Route path='/merch' element={<Merch/>} />
+            {/*can remove this*/}
             <Route path='/sign-up' element={<SignUp/>} />
         </Routes>
       </Router>

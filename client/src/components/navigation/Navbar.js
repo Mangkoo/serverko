@@ -26,57 +26,35 @@ function Navbar() {
 
     return (
         <>
-            <nav className='navbar'>
-                <div className='navbar-container'>
-{/*                 <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>Mangk <i className="fab fa-monero"></i></Link>*/}
-                    <div className='menu-icon' onClick={handleClick}>
-                        <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-                    </div>
-                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                        <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Visul</a>
+
+                    {/*Mobile Toggler.*/}
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    {/*Nav Items.*/}
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <Link to='/'class="nav-link">
                                 Home
                             </Link>
                         </li>
-                        <li className='nav-item'>
-                            <Link
-                                to='/donate'
-                                className='nav-links'
-                                onClick={closeMobileMenu}
-                            >
-                                Donate
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link
-                                to='/staff'
-                                className='nav-links'
-                                onClick={closeMobileMenu}
-                            >
-                                Staff
-                          </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link
-                                to='/merch'
-                                className='nav-links'
-                                onClick={closeMobileMenu}
-                            >
-                                Merch
-                            </Link>
-                        </li>
-
-                        <li>
-                            <Link
-                                to='/sign-up'
-                                className='nav-links-mobile'
-                                onClick={closeMobileMenu}
-                            >
-                                Sign Up
+                        <li class="nav-item">
+                            <Link to='/about'class="nav-link">
+                                About
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Register</Button>}
+
+                    {/*Purchase.*/}
+                    <div class="d-flex">
+                        <button class="btn btn-primary me-1" type="submit">Purchase</button>
+                    </div>
+                    </div>
                 </div>
             </nav>
         </>
