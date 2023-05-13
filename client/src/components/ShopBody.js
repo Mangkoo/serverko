@@ -5,6 +5,12 @@ import './ShopBody.css';
 function ShopBody() {
   return (
     <>
+      {/*Page Header*/}
+      <div class="p-4">
+        <h2 class="fw-normal">Shop.</h2>
+        <span class="text-muted">Check out the ever-growing catalog of products.</span>
+      </div>
+
       <div class="container">
         {/*3 Preview Cols.*/}
         <div class="row py-5">

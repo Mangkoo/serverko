@@ -1,13 +1,27 @@
 import React from 'react';
-import Navbar from './components/navigation/Navbar';
-import './App.css';
-import Home from './components/pages/Home';
+
+// Import FontAwesome gloabally
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+
+// Import Routes
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+
+// Import Components 
+import Navbar from './components/navigation/Navbar';
+import Home from './components/pages/Home';
 import About from './components/pages/About';
-import Merch from './components/pages/Merch';
+import Checkout from './components/pages/Checkout';
 import SignUp from './components/pages/SignUp';
 import Shop from './components/pages/Shop';
 import Footer from './components/navigation/Footer';
+
+// Import Global CSS
+import './App.css';
+
 
 function App() {
   return (
@@ -21,7 +35,7 @@ function App() {
             {/*was staff, now about*/}
             <Route path='/about' element={<About/>} />
             {/*keep page in case needed*/}
-            <Route path='/merch' element={<Merch/>} />
+            <Route path='/checkout' element={<Checkout/>} />
             {/*can remove this*/}
             <Route path='/sign-up' element={<SignUp/>} />
         </Routes>
@@ -32,3 +46,6 @@ function App() {
 }
 
 export default App;
+
+// Add FontAwesome icons to Global Library
+library.add(fab, fas, far)
