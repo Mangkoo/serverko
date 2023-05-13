@@ -38,7 +38,7 @@ function Navbar() {
                             </li>
                         </ul>
                         {/*Shopping Cart*/}
-                        <div class="d-flex mx-3">
+                        <div class="checkout-button d-flex mx-3">
                             <Link to='/Checkout'class="nav-link">
                                 <FontAwesomeIcon icon="fa-solid fa-cart-shopping" size="xl" />
                             </Link>
